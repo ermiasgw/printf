@@ -10,7 +10,7 @@ int print_string(va_list s)
 	int i;
 
 	string = va_arg(s, char *);
-	if (string == '\0')
+	if (*string == '\0')
 	{
 		string = "(null)";
 	}
