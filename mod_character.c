@@ -11,6 +11,10 @@ int (*mod_character_s(const char *next, int dino))(va_list)
 	spc_t options[] = {
 		{"s", print_string},
 		{"c", print_char},
+		{"i", print_number},
+		{"d", print_number},
+		{"u", print_unsigned},
+		{"r", print_reverse},
 		{NULL, NULL}
 	};
 
